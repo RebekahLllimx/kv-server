@@ -90,6 +90,7 @@ I/O worker or release its lock. Native I/O can make shutdown exceed that thresho
 
 ```bash
 python -m pip install -r requirements-dev.txt
+python tools/check_publication.py
 PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider tests
 ```
 
@@ -99,6 +100,11 @@ the [engineering design](ENGINEERING_DESIGN.md#validation-and-performance) for
 the acceptance matrix and a matched always-mode comparison. Everysec has a
 different acknowledgment contract and is not an equivalent performance baseline.
 The current suite contains 207 tests.
+
+GitHub Actions runs these checks on Linux and macOS with Python 3.10 and 3.11.
+The source check verifies documentation links, excludes private runtime files
+and checks that the retained measurements match the committed implementation
+and fixed baseline.
 
 The retained `benchmark_aof.py` measures direct file operations. Store-lock and
 per-append probes in `benchmark_server.py` describe the legacy path; absent probe
