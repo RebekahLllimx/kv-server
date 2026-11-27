@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "cases": 27,
+  "latency_samples_verified": 1465704,
+  "aof_records_verified": 1479204,
+  "same_code_hashes": true,
+  "fsync_and_batch_counts_reconciled": true,
+  "complete_aof_streams_and_final_values": true,
+  "cases_verified": [
+    {
+      "round": 1,
+      "kind": "baseline",
+      "clients": 1,
+      "aof_records_verified": 31290,
+      "successes": 30790
+    },
+    {
+      "round": 1,
+      "kind": "candidate",
+      "clients": 1,
+      "aof_records_verified": 22743,
+      "successes": 22243
+    },
+    {
+      "round": 1,
+      "kind": "batch1",
+      "clients": 1,
+      "aof_records_verified": 25145,
+      "successes": 24645
+    },
+    {
+      "round": 1,
+      "kind": "baseline",
+      "clients": 10,
+      "aof_records_verified": 34451,
+      "successes": 33951
+    },
+    {
+      "round": 1,
+      "kind": "candidate",
+      "clients": 10,
+      "aof_records_verified": 94963,
+      "successes": 94463
+    },
+    {
+      "round": 1,
+      "kind": "batch1",
+      "clients": 10,
+      "aof_records_verified": 47196,
+      "successes": 46696
+    },
+    {
+      "round": 1,
+      "kind": "baseline",
+      "clients": 50,
+      "aof_records_verified": 35231,
+      "successes": 34731
+    },
+    {
+      "round": 1,
+      "kind": "candidate",
+      "clients": 50,
+      "aof_records_verified": 152497,
+      "successes": 151997
+    },
+    {
+      "round": 1,
+      "kind": "batch1",
+      "clients": 50,
+      "aof_records_verified": 44202,
+      "successes": 43702
+    },
+    {
+      "round": 2,
+      "kind": "candidate",
+      "clients": 10,
+      "aof_records_verified": 101136,
+      "successes": 100636
+    },
+    {
+      "round": 2,
+      "kind": "batch1",
+      "clients": 10,
+      "aof_records_verified": 45662,
+      "successes": 45162
+    },
+    {
+      "round": 2,
+      "kind": "baseline",
+      "clients": 10,
+      "aof_records_verified": 36928,
+      "successes": 36428
+    },
+    {
+      "round": 2,
+      "kind": "candidate",
+      "clients": 50,
+      "aof_records_verified": 146254,
+      "successes": 145754
+    },
+    {
+      "round": 2,
+      "kind": "batch1",
+      "clients": 50,
+      "aof_records_verified": 47601,
+      "successes": 47101
+    },
+    {
+      "round": 2,
+      "kind": "baseline",
+      "clients": 50,
+      "aof_records_verified": 35644,
+      "successes": 35144
+    },
+    {
+      "round": 2,
+      "kind": "candidate",
+      "clients": 1,
+      "aof_records_verified": 26760,
+      "successes": 26260
+    },
+    {
+      "round": 2,
+      "kind": "batch1",
+      "clients": 1,
+      "aof_records_verified": 26488,
+      "successes": 25988
+    },
+    {
+      "round": 2,
+      "kind": "baseline",
+      "clients": 1,
+      "aof_records_verified": 30377,
+      "successes": 29877
+    },
+    {
+      "round": 3,
+      "kind": "batch1",
+      "clients": 50,
+      "aof_records_verified": 45166,
+      "successes": 44666
+    },
+    {
+      "round": 3,
+      "kind": "baseline",
+      "clients": 50,
+      "aof_records_verified": 37255,
+      "successes": 36755
+    },
+    {
+      "round": 3,
+      "kind": "candidate",
+      "clients": 50,
+      "aof_records_verified": 154265,
+      "successes": 153765
+    },
+    {
+      "round": 3,
+      "kind": "batch1",
+      "clients": 1,
+      "aof_records_verified": 27819,
+      "successes": 27319
+    },
+    {
+      "round": 3,
+      "kind": "baseline",
+      "clients": 1,
+      "aof_records_verified": 31044,
+      "successes": 30544
+    },
+    {
+      "round": 3,
+      "kind": "candidate",
+      "clients": 1,
+      "aof_records_verified": 26451,
+      "successes": 25951
+    },
+    {
+      "round": 3,
+      "kind": "batch1",
+      "clients": 10,
+      "aof_records_verified": 46205,
+      "successes": 45705
+    },
+    {
+      "round": 3,
+      "kind": "baseline",
+      "clients": 10,
+      "aof_records_verified": 35328,
+      "successes": 34828
+    },
+    {
+      "round": 3,
+      "kind": "candidate",
+      "clients": 10,
+      "aof_records_verified": 91103,
+      "successes": 90603
+    }
+  ]
+}

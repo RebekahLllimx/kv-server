@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.local/
+.DS_Store
+.env
+.env.*
+data/
+benchmark_results/
+*.log
+*.aof
+*.aof.*
+.rewrite-tmp-*
+.backup-tmp-*
